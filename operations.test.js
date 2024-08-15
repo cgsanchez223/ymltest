@@ -3,6 +3,7 @@ const { add, average, multiply, subtract } = require("./operations");
 describe("#add", function() {
     it("adds numbers", function() {
         expect(add(2, 2)).toEqual(4);
+        expect(add(4, 5)).toEqual(9);
     });
     it("handles empty inputs", function() {
         expect(add()).toEqual(0);
